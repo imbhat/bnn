@@ -1,0 +1,4 @@
+Original model RMSD for training dataset was 0.285670526759614
+BNN-l4 model RMSD for training set is 0.1779448240995407
+Original model RMSD for test dataset was 0.28735802892273826
+BNN-l4 model RMSD for test set 0.219671368598938
