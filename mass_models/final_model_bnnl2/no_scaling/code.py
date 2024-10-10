@@ -25,10 +25,10 @@ import matplotlib.pyplot as plt
 # Set a random seed for reproducibility
 RANDOM_SEED = 42
 np.random.seed(RANDOM_SEED)
-numpyro.set_host_device_count(4)  # Adjust based on your hardware
+numpyro.set_host_device_count(4)
 
 # Load and preprocess data
-df = pd.read_csv('data.csv')  # Replace with your data loading method
+df = pd.read_csv('data.csv')
 
 target_feature = 'ws4_residuals'
 
